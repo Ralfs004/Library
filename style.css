@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 60px;
+  background: rgb(174, 238, 187);
+  background: radial-gradient(
+    circle,
+    rgba(174, 238, 187, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(23, 21, 47, 0.5);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgb(126, 120, 103);
+}
+
+.book {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.book a {
+  margin: 0;
+  color: black;
+  text-decoration: none;
+}
+
+.create-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#create-poga {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#create-div {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+@media (max-width: 600px) {
+  #create-div,
+  .create-input,
+  #create-poga {
+    width: 100%;
+  }
+}
+
+#delete-poga {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.edit-pogas {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navbar-pogas {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
